@@ -18,7 +18,7 @@ export default class PeopleList extends React.Component {
   render() {
     return (
       <div>
-        <h2 class="mt-5">People</h2>
+        <h2 className="mt-5">People</h2>
         {this.state.people.map(person => (
           <div className="card mt-5 mb-5">
             <div className="card-body">
